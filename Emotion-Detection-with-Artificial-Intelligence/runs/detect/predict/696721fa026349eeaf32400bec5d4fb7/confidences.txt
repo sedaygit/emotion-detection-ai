@@ -1,0 +1,1 @@
+Box: [          0           0         402         594], Confidence: 0.9323, Emotion: surprise
