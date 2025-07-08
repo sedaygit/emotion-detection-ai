@@ -45,8 +45,8 @@ The trained `.pt` model file is included.
 
 ## Model Details
 
-- `yolov8n-emo.pt`: Custom-trained YOLOv8 model for emotion detection (trained by us)
-- `yolov8n-face.pt`: Face detection model **sourced from [akanametov/yolov8-face](https://github.com/akanametov/yolov8-face)**
+- `yolov8n-emo.pt`(Emotion Detection with Artificial Intelligence/yolov8n-face.pt): Custom-trained YOLOv8 model for emotion detection (trained by us)
+- `yolov8n-face.pt`(Emotion Detection with Artificial Intelligence/yolov8n-face.pt): Face detection model **sourced from [akanametov/yolov8-face](https://github.com/akanametov/yolov8-face)**
 
 We only used the face detection part; all emotion classification work was done by us.
 
