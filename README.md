@@ -14,7 +14,6 @@ This project was developed as part of the Software Engineering undergraduate the
 
 *Or download the poster [here](emotion_detection_with_ai.pdf).*
 
-
 ## About
 
 This project detects 8 different emotions from facial images  
