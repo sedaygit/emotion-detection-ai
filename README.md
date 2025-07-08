@@ -113,6 +113,21 @@ The training parameters we utilized were as follows:
 
 ---
 
+## Sample Result
+
+The image below shows an example prediction by our emotion detection AI model:
+
+<img src="anger.png" alt="Sample Result" width="200"/>
+<img src="contempt.png" alt="Sample Result" width="200"/>
+<img src="disgust.png" alt="Sample Result" width="200"/>
+<img src="fear.png" alt="Sample Result" width="200"/>
+<img src="happiness.png" alt="Sample Result" width="200"/>
+<img src="neutrality.png" alt="Sample Result" width="200"/>
+<img src="sadness.png" alt="Sample Result" width="200"/>
+<img src="surprise.png" alt="Sample Result" width="200"/>
+
+---
+
 ## How to Use
 - Clone this repository
 - Install required packages: `pip install -r requirements.txt`
