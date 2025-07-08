@@ -14,15 +14,21 @@ This project was developed as part of the Software Engineering undergraduate the
 
 *Or download the poster [here](emotion-detection-with-ai.pdf).*
 
+---
+
 ## About
 
 This project detects 8 different emotions from facial images  
 using a custom-trained YOLOv8 model and displays them via a Django web interface.
 
+---
+
 ## Features
 - Detects 8 emotion classes
 - Real-time detection
 - Web-based interface
+
+---
 
 ## How to Use
 - Clone this repository
@@ -30,8 +36,12 @@ using a custom-trained YOLOv8 model and displays them via a Django web interface
 - Run the Django server
 - Upload an image for detection
 
+---
+
 ## Model
 The trained `.pt` model file is included.
+
+---
 
 ## Model Details
 
@@ -39,6 +49,8 @@ The trained `.pt` model file is included.
 - `yolov8n-face.pt`: Face detection model **sourced from [akanametov/yolov8-face](https://github.com/akanametov/yolov8-face)**
 
 We only used the face detection part; all emotion classification work was done by us.
+
+---
 
 ## Training Parameters
 
@@ -59,6 +71,8 @@ The training parameters we utilized were as follows:
 - Augmentation: enabled  
 - Label Smoothing: 0.0  
 - Other parameters: Default values from the YOLOv8 framework
+
+---
 
 ## Datasets
 
