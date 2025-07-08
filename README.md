@@ -87,7 +87,7 @@ These metrics help us measure the effectiveness of our solutions.
 
 The graph below shows the training results of our AI model:
 
-<img src="model-metrics.png" alt="Model Metrics Graph" width="1000"/>
+<img src="model-metrics.png" alt="Model Metrics Graph" width="800"/>
 
 ---
 
