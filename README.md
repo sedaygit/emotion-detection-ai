@@ -117,6 +117,7 @@ The training parameters we utilized were as follows:
 
 The image below shows an example prediction by our emotion detection AI model:
 
+<p float="left">
 <img src="anger.png" alt="Sample Result" width="200"/>
 <img src="contempt.png" alt="Sample Result" width="200"/>
 <img src="disgust.png" alt="Sample Result" width="200"/>
@@ -125,6 +126,7 @@ The image below shows an example prediction by our emotion detection AI model:
 <img src="neutrality.png" alt="Sample Result" width="200"/>
 <img src="sadness.png" alt="Sample Result" width="200"/>
 <img src="surprise.png" alt="Sample Result" width="200"/>
+</p>
 
 ---
 
