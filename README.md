@@ -115,7 +115,7 @@ The training parameters we utilized were as follows:
 
 ## Sample Result
 
-The image below shows an example prediction by our emotion detection AI model:
+The images below shows an example predictions by our emotion detection AI model:
 
 <p float="left">
 <img src="anger.png" alt="Sample Result" width="200"/>
