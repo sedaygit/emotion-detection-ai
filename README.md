@@ -58,11 +58,11 @@ The training parameters we utilized were as follows:
 
 We trained our emotion detection model using various datasets, ensuring a broad and thorough collection of photos.
 
-- Grayscale Face Images: (https://www.kaggle.com/datasets/geolek/grayscale-face-images)
-- MMA Facial Expression: (https://www.kaggle.com/datasets/mahmoudima/mma-facial-expression?resource=download)  
-- Facial Expression Dataset: (https://www.kaggle.com/datasets/aadityasinghal/facial-expression-dataset?resource=download)
-- Random Images for Face Emotion Recognition: (https://www.kaggle.com/datasets/sudarshanvaidya/random-images-for-face-emotion-recognition)
-- AffectNet Training Data: (https://www.kaggle.com/datasets/noamsegal/affectnet-training-data?select=labels.csv) 
+- Grayscale Face Images: [https://www.kaggle.com/datasets/geolek/grayscale-face-images](https://www.kaggle.com/datasets/geolek/grayscale-face-images)  
+- MMA Facial Expression: [https://www.kaggle.com/datasets/mahmoudima/mma-facial-expression?resource=download](https://www.kaggle.com/datasets/mahmoudima/mma-facial-expression?resource=download)  
+- Facial Expression Dataset: [https://www.kaggle.com/datasets/aadityasinghal/facial-expression-dataset?resource=download](https://www.kaggle.com/datasets/aadityasinghal/facial-expression-dataset?resource=download)  
+- Random Images for Face Emotion Recognition: [https://www.kaggle.com/datasets/sudarshanvaidya/random-images-for-face-emotion-recognition](https://www.kaggle.com/datasets/sudarshanvaidya/random-images-for-face-emotion-recognition)  
+- AffectNet Training Data: [https://www.kaggle.com/datasets/noamsegal/affectnet-training-data?select=labels.csv](https://www.kaggle.com/datasets/noamsegal/affectnet-training-data?select=labels.csv)  
 
 Because of variations in emotion categorization among these datasets, we relabeled the photos using the CVAT program.  
 This step ensured that each image appropriately expressed the required sentiment.
