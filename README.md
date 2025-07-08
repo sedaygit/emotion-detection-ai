@@ -8,6 +8,9 @@ This project was developed as part of the Software Engineering undergraduate the
 
 ---
 
+## Thesis Poster
+
+![Thesis Poster](poster.png)
 
 ## About
 
