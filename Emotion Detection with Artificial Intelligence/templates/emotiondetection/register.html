@@ -1,0 +1,34 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://bootswatch.com/5/solar/bootstrap.min.css">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        {% block css_files %} {% endblock %}
+        <title>EmotionDetectionSystem</title>
+    </head>
+
+    <br>
+
+    <div class="container bg-white shadow-md p-5 form-layout">
+
+        <h3> Register now! </h3>
+
+        <br>
+        
+        <form method="POST" autocomplete="off">
+
+            {% csrf_token %}
+            {{registerform|crispy}}
+        
+            <br>
+
+            <input type="submit" value="Register"/>
+        </form>
+
+    </div>
+
+</html>

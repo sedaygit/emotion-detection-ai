@@ -1,0 +1,10 @@
+#anger contempt disgust fear happiness neutrality sadness surprise
+names:
+  0: anger
+  1: contempt
+  2: disgust
+  3: fear
+  4: happiness
+  5: neutrality
+  6: sadness
+  7: surprise

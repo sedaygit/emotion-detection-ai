@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/5/solar/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block css_files %} {% endblock %}
+    <title>EmotionDetectionSystem</title>
+</head>
+
+<h4> This is the emotion detection website! </h4>
+
+<hr>
+
+<body>
+    <nav class="navbar navbar-light bg-light navbar-expand-lg justify-content-center">
+        <a class="navbar-brand main-heading">
+            &nbsp; Emotion-Detection
+        </a>
+    
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+            
+        </button>
+    
+        <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+
+                &nbsp;    &nbsp;    &nbsp;
+                <li class="nav-item">
+                    <a class="btn btn-primary navbar-btn" type="button" href="{% url 'register' %}">Register</a>
+                </li>
+                
+                &nbsp;    &nbsp;    &nbsp;
+                <li class="nav-item">
+                    <a class="btn btn-primary navbar-btn" type="button" href="{% url 'my-login' %}">Login</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+    
+    <body>
+  
+        <br>
+        <br>
+  
+        <div class="text-center">
+  
+        <h3> Emotion Detection.... A home for your emotions. </h3>
+  
+          <br>
+            
+          <a class="btn btn-outline-primary" type="button" href="{% url 'register' %}">Register</a>
+  
+        </div>
+  
+      </body>
+
+    <br>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/base.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+
+    crossorigin="anonymous">
+
+    </script>
+    {% block js_files %} {% endblock %}
+</body>
+</html>
+
+
+

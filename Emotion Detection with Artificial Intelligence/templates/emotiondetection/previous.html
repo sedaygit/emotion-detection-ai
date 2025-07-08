@@ -1,0 +1,24 @@
+{% load static %}
+
+{% load crispy_forms_tags %}
+<html>
+<head>
+    <title>Analysis Results</title>
+</head>
+<body>
+    <h1>Your Previous Uploads</h1>
+    {% if analysis_results %}
+        <ul>
+            {% for result in analysis_results %}
+                <li>
+                    <p><strong>Image:</strong></p>
+                    <img src="{{ result.detected_image.image.url }}" alt="Uploaded Image" style="max-width: 200px;">
+                    <p><strong>Date:</strong> {{ result.date_time }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>You have no analysis results.</p>
+    {% endif %}
+</body>
+</html>
