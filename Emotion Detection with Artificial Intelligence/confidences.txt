@@ -1,9 +1,0 @@
-Box: [   0.011024           0      79.929      79.942], Confidence: 0.5314, Emotion: happiness
-Box: [   0.010727     0.13207      79.921          80], Confidence: 0.2900, Emotion: sadness
-Box: [          0           0      75.637      81.955], Confidence: 0.9161, Emotion: happiness
-Box: [          0    0.082808          77          95], Confidence: 0.9412, Emotion: surprise
-Box: [          0    0.078703          71      97.779], Confidence: 0.9820, Emotion: surprise
-Box: [          0     0.14014          67      102.89], Confidence: 0.9859, Emotion: surprise
-Box: [          0    0.082298      75.845         109], Confidence: 0.6469, Emotion: surprise
-Box: [          0    0.030904          75      101.95], Confidence: 0.7187, Emotion: happiness
-Box: [    0.15015           0         119         167], Confidence: 0.9886, Emotion: happiness
