@@ -30,6 +30,21 @@ using a custom-trained YOLOv8 model and displays them via a Django web interface
 
 ---
 
+## Emotion Labels
+
+The model predicts the following 8 emotion classes:
+
+- 0: anger
+- 1: contempt
+- 2: disgust
+- 3: fear
+- 4: happiness
+- 5: neutrality
+- 6: sadness
+- 7: surprise
+
+---
+
 ## How to Use
 - Clone this repository
 - Install required packages: `pip install -r requirements.txt`
