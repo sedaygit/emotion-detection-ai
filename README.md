@@ -12,6 +12,8 @@ This project was developed as part of the Software Engineering undergraduate the
 
 ![Thesis Poster](poster.png)
 
+*Or download the poster [here](poster.pdf).*
+
 ## About
 
 This project detects 8 different emotions from facial images  
