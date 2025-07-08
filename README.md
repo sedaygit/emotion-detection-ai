@@ -30,7 +30,7 @@ using a custom-trained YOLOv8 model and displays them via a Django web interface
 
 ---
 ## Dataset Summary
-![Data Overview](data-overview.jpg)
+<img src="data-overview.jpg" alt="Data Overview" width="400"/>
 Each emotion class contains **1,040 images**,  
 resulting in a total of **8,320 labeled images** used to train our AI model.
 
