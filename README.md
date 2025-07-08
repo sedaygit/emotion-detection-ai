@@ -160,8 +160,10 @@ results = model("your_image.jpg")
 
 # Show results
 results.show()
+
 ```
 Replace "your_image.jpg" with the path to your own image.
+
 ---
 
 ## License
