@@ -10,9 +10,9 @@ This project was developed as part of the Software Engineering undergraduate the
 
 ## Thesis Poster
 
-![Thesis Poster](emotion_detection_with_ai.png)
+![Thesis Poster](emotion-detection-ai/emotion_detection_with_ai.png)
 
-*Or download the poster [here](emotion_detection_with_ai.pdf).*
+*Or download the poster [here](emotion-detection-ai/emotion_detection_with_ai.pdf).*
 
 ## About
 
