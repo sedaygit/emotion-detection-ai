@@ -138,11 +138,37 @@ The images below shows an example predictions by our emotion detection AI model:
 
 ---
 
+## Using the Model
+
+You can use the trained emotion detection model (`yolov8n-emo.pt`) with the Ultralytics YOLOv8 library.
+
+### Installation
+
+First, install the required Python packages:
+
+```bash
+pip install ultralytics 
+```
+```python
+from ultralytics import YOLO
+
+# Load model
+model = YOLO("yolov8n-emo.pt")
+
+# Run prediction
+results = model("your_image.jpg")
+
+# Show results
+results.show()
+```
+
+---
+
 ## License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
 
-You may use, share, and modify this project for non-commercial purposes, **provided that you give appropriate credit** to:
+You may use, share, and modify this model for non-commercial purposes, **provided that you give appropriate credit** to:
 
 - Seda Yalçin
 - Alaz Ekici
