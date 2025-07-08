@@ -4,8 +4,7 @@ Real-time emotion detection using YOLOv8.2 and Django.
 **Part of our 2024 graduation thesis.**
 
 © 2024 [Seda Yalçin] & [Alaz Ekici]. All rights reserved.
-**This project was developed within the scope of FMV Işık University 
-Software Engineering undergraduate thesis.**
+**This project was developed within the scope of FMV Işık University Software Engineering undergraduate thesis.**
 
 ---
 
