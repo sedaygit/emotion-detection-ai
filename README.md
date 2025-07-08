@@ -29,6 +29,12 @@ using a custom-trained YOLOv8 model and displays them via a Django web interface
 - Web-based interface
 
 ---
+## Dataset Summary
+
+Each emotion class contains **1,040 images**,  
+resulting in a total of **8,320 labeled images** used to train our AI model.
+
+---
 
 ## Emotion Labels
 
@@ -42,14 +48,6 @@ The model predicts the following 8 emotion classes:
 - 5: neutrality
 - 6: sadness
 - 7: surprise
-
----
-
-## How to Use
-- Clone this repository
-- Install required packages: `pip install -r requirements.txt`
-- Run the Django server
-- Upload an image for detection
 
 ---
 
@@ -101,6 +99,14 @@ We trained our emotion detection model using various datasets, ensuring a broad 
 
 Because of variations in emotion categorization among these datasets, we relabeled the photos using the CVAT program.  
 This step ensured that each image appropriately expressed the required sentiment.
+
+---
+
+## How to Use
+- Clone this repository
+- Install required packages: `pip install -r requirements.txt`
+- Run the Django server
+- Upload an image for detection
 
 ---
 
